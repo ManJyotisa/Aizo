@@ -1,0 +1,31 @@
+{
+  "name": "@aizo/module",
+  "version": "1.0.2",
+  "description": "Scrapers && Api For Javascript",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "type": "module",
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "import": "./index.mjs"
+    }
+  },
+  "author": "Nyoman",
+  "license": "ISC",
+  "keywords": [
+    "scraper",
+    "api",
+    "javascript",
+    "web scraping"
+  ],
+  "dependencies": {
+    "axios": "^1.7.7",
+    "g4f": "^1.4.6",
+    "@google/generative-ai": "^0.17.1",
+    "node-fetch": "^3.3.2",
+    "cross-fetch": "^4.0.0",
+    "prodia.js": "^3.0.0",
+    "hercai": "^12.3.2"
+  }
+}
